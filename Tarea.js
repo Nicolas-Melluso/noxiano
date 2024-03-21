@@ -45,3 +45,34 @@ if(rematador == "central") {
 } else {
     console.log(defensa_rival2)
 }
+
+let saque = 1;
+
+function iniciarPartido(saque){
+if(saque === 1) {
+    console.log("saque flotante");
+}
+if(saque === 2) {
+    console.log("saque en potencia");
+}
+if(saque === 3) {
+    console.log("saque flotante con salto");
+}
+if (saque === 4) {
+    console.log("saque de potencia con salto");
+}
+if (saque === 5) {
+    console.log("saque de abajo");
+}
+if (saque === 6) {
+    console.log("saque paraguayo");
+}
+if (saque === 7) {
+    console.log("flotencio");
+}
+if (saque === 0) {
+    console.log("saque errado");
+}
+}
+
+iniciarPartido(0)

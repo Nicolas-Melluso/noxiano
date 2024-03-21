@@ -11,7 +11,7 @@ let jugadores_noxus = [ // const // camelCase jugadoresNoxus
     "Juan",
     "Roi",
     "Luciano",
-    "Fabi",
+    "Fabricio",
 ];
 
 console.log(jugadores_noxus);
